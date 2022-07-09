@@ -10,4 +10,8 @@
  The main aim of this project is to find the Probability of win and loss of IPL Matches. Also it used to predict the current run rate, and required run rate. 
  Both the Decision Tree Classifier and Random Forest gives the most accuracy.  So we can choose anyone for creating a predicting model.
  
+ ### IPL Teams Sample:
+ ![screenshot](https://lh6.googleusercontent.com/t79ecAul6H1YOdhrrcFgFShXcD_Nqu1grum37ObN4V4hBYCBMRLIl5AQ6Rkq4DHSY76osz8A7h9Iz5ljcPrQ9jGX130mfPV1Uqfakp5fT7VYfODGklLMZ3WChOUFi72pUSZjNDqX)
+ ### Conclussion:
+ We successfully predicted the winning teams for the following matches. Now you can sit, relax and see if your favorite team is going to win or not in this IPL season.
  #### Link of Project: https://www.youtube.com/watch?v=GNmypKVQZ5U
