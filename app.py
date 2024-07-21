@@ -23,7 +23,8 @@ cities = [
 ]
 
 # Load the machine learning pipeline from a pickled file
-pipe = pickle.load(open('pipe.pkl', 'rb'))
+file_path = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
+pipe = pickle.load(open(file_path, 'rb'))
 
 # Streamlit UI
 st.title("IPL WINNING PREDICTOR")
