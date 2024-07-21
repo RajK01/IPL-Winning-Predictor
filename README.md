@@ -1,5 +1,6 @@
  # ✨ IPL-Winning-Predictor ✨
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
  ### 📍 Description:
  In this Project, the dataset that I have collected on matches and deliveries from Kaggle website from 2008 to 2019.
  The entire code I did on Jupyter notebook. The main aim of this project is to find the Probability 
