@@ -32,11 +32,11 @@ try:
     with open(file_path, 'rb') as file:
         pipe = pickle.load(file)
 except FileNotFoundError:
-    print("The file 'pipe.pkl' was not found.")
+    st.error("The file 'pipe.pkl' was not found.")
 except pickle.UnpicklingError:
-    print("The file 'pipe.pkl' is not a valid pickle file.")
+    st.error("The file 'pipe.pkl' is not a valid pickle file.")
 except Exception as e:
-    print(f"An error occurred: {e}")
+    st.error(f"An error occurred: {e}")
 
 
 # Streamlit UI
