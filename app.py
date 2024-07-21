@@ -57,8 +57,8 @@ if st.button('Predict Probability'):
     runs_left = target - score
     balls_left = 120 - (overs * 6)
     wickets_left = 10 - wickets
-    crr = score / overs if overs > 0 else 0
-    rrr = (runs_left * 6) / balls_left if balls_left > 0 else 0
+    crr = score / overs
+    rrr = (runs_left * 6) / balls_left
 
     # Create input dataframe for prediction
     input_df = pd.DataFrame({
@@ -76,21 +76,11 @@ if st.button('Predict Probability'):
     # Display input dataframe
     st.table(input_df)
 
-    # Debugging: Check the structure of the input DataFrame
-    st.write("DataFrame columns:", input_df.columns)
-    st.write("DataFrame types:", input_df.dtypes)
+    # Make prediction
+    result = pipe.predict_proba(input_df)
+    loss = result[0][0]
+    win = result[0][1]
 
-    try:
-        # Make prediction
-        result = pipe.predict_proba(input_df)
-        loss = result[0][0]
-        win = result[0][1]
-
-        # Display results
-        st.header(f"{batting_team} - {round(win * 100)}%")
-        st.header(f"{bowling_team} - {round(loss * 100)}%")
-    except AttributeError as e:
-        st.error(f"An error occurred: {e}")
-        # Print the full traceback for debugging
-        import traceback
-        st.text(traceback.format_exc())
+    # Display results
+    st.header(f"{batting_team} - {round(win * 100)}%")
+    st.header(f"{bowling_team} - {round(loss * 100)}%")
