@@ -23,8 +23,21 @@ cities = [
 ]
 
 # Load the machine learning pipeline from a pickled file
-file_path = os.path.join(os.path.dirname(__file__), 'pipe.pkl')
-pipe = pickle.load(open(file_path, 'rb'))
+import pickle
+
+# Direct path
+file_path = 'pipe.pkl'
+
+try:
+    with open(file_path, 'rb') as file:
+        pipe = pickle.load(file)
+except FileNotFoundError:
+    print("The file 'pipe.pkl' was not found.")
+except pickle.UnpicklingError:
+    print("The file 'pipe.pkl' is not a valid pickle file.")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 
 # Streamlit UI
 st.title("IPL WINNING PREDICTOR")
