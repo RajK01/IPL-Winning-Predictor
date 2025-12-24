@@ -1,0 +1,58 @@
+[
+    {
+        "typology": "residential",
+        "climate": "1",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 1.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 1.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 1.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "2",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 2.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 2.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 2.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "3",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 3.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 3.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 3.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "4",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 4.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 4.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 4.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "5",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 5.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 5.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 5.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "6",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 6.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 6.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 6.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "7",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 7.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 7.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 7.inp"
+    },
+    {
+        "typology": "residential",
+        "climate": "8",
+        "construction_library_path": "BaselineAutomation/library/Nonresidential_Construction/Climate zone 8.inp",
+        "construction_library_path_residential": "BaselineAutomation/library/Residential_Construction/Climate zone 8.inp",
+        "construction_library_systems": "BaselineAutomation/library/HVAC Templates/HVAC Sys 8.inp"
+    }
+]
