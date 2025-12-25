@@ -5,7 +5,6 @@ import pandas as pd
 from PIL import Image as PILImage
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation
 import json
 import streamlit.components.v1 as components
 import re
@@ -294,4 +293,5 @@ with st.container():
         unsafe_allow_html=True
 
     )
+
 
