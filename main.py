@@ -2,7 +2,6 @@ import streamlit as st
 import subprocess
 import os
 import pandas as pd
-from streamlit_card import card
 from PIL import Image as PILImage
 import numpy as np
 import matplotlib.pyplot as plt
@@ -295,3 +294,4 @@ with st.container():
         unsafe_allow_html=True
 
     )
+
