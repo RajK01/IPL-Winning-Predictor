@@ -45,7 +45,11 @@ button_style = """
     </style>
 """
 st.markdown(button_style, unsafe_allow_html=True)
-pipe = pickle.load(open('pipe.pkl','rb'))
+# pipe = pickle.load(open('pipe.pkl','rb'))
+model_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
+with open(model_path, "rb") as f:
+    pipe = pickle.load(f)
+    
 def main(): 
     card_button_style = """
         <style>
@@ -292,6 +296,7 @@ with st.container():
         unsafe_allow_html=True
 
     )
+
 
 
 
