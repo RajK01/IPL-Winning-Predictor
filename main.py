@@ -2,7 +2,6 @@ import streamlit as st
 import subprocess
 import os
 import pandas as pd
-from streamlit_lottie import st_lottie
 from streamlit_card import card
 from PIL import Image as PILImage
 import numpy as np
@@ -10,12 +9,9 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import json
 import streamlit.components.v1 as components
-import pdfplumber
 import re
 from io import BytesIO
-import time
 import pickle
-import sklearn
 
 st.set_page_config(
     page_title="IPL Winning Predictor",
@@ -297,4 +293,5 @@ with st.container():
         </div>
         """,
         unsafe_allow_html=True
+
     )
