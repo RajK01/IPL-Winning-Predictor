@@ -6,6 +6,7 @@ import numpy as np
 import json
 import re
 import pickle
+import joblib
 
 st.set_page_config(
     page_title="IPL Winning Predictor",
@@ -44,8 +45,8 @@ button_style = """
 st.markdown(button_style, unsafe_allow_html=True)
 # pipe = pickle.load(open('pipe.pkl','rb'))
 model_path = os.path.join(os.path.dirname(__file__), "pipe.pkl")
-with open(model_path, "rb") as f:
-    pipe = pickle.load(f)
+# with open(model_path, "rb") as f:
+pipe = joblib.load(model_path)
     
 def main(): 
     card_button_style = """
@@ -293,6 +294,7 @@ with st.container():
         unsafe_allow_html=True
 
     )
+
 
 
 
