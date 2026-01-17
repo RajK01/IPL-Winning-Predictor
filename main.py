@@ -267,8 +267,8 @@ st.markdown(
             <div class="icons">
                 <a href="https://twitter.com/rajeev?lang=en" target="_blank"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a>
                 <a href="https://www.facebook.com/rajeevkumar/" target="_blank"><i class="fab fa-facebook" style="color: #4267B2;"></i></a>
-                <a href="https://www.instagram.com/_rajeevkumar1/?hl=en" target="_blank"><i class="fab fa-instagram" style="color: #E1306C;"></i></a>
-                <a href="https://www.linkedin.com/rajeev-kumar-nit/" target="_blank"><i class="fab fa-linkedin" style="color: #0077b5;"></i></a>
+                <a href="https://www.instagram.com/_rajeevkumar1_/?hl=en" target="_blank"><i class="fab fa-instagram" style="color: #E1306C;"></i></a>
+                <a href="https://www.linkedin.com/in/rajeev-kumar-nit/" target="_blank"><i class="fab fa-linkedin" style="color: #0077b5;"></i></a>
             </div>
             <div class="additional-content">
                 <h4>Contact Us</h4>
@@ -292,5 +292,6 @@ with st.container():
         </div>
         """,
         unsafe_allow_html=True
+
 
     )
