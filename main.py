@@ -150,8 +150,10 @@ def main():
         balls_left = 120 - balls_bowled
         wickets_left = 10 - wickets
         # Safety: if no overs bowled yet
-        crr = score / overs if overs > 0 else 0
-    
+        if overs > 0:
+            crr = score / overs
+        else:
+            crr = 0
         # Handle RRR safely
         if balls_left <= 0:
             if runs_left <= 0:
@@ -301,4 +303,5 @@ with st.container():
 
 
     )
+
 
